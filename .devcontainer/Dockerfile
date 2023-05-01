@@ -17,5 +17,6 @@ RUN apt install -y \
     pkg-config \
     libgtk-3-dev
 
-# vim
-RUN apt-get install -y vim
+# dev tools
+RUN apt-get install -y vim zsh
+RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
