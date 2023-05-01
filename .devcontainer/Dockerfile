@@ -16,3 +16,6 @@ RUN apt install -y \
     ninja-build \
     pkg-config \
     libgtk-3-dev
+
+# vim
+RUN apt-get install -y vim
